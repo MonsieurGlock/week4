@@ -37,7 +37,7 @@
                             gotoxy(x,y);
                             draw_ship();
                         }
-                        if(ch=='s' && y <79 ){
+                        if(ch=='s' && y <=79 ){
                             erase_ship(x,y);
                             ++y;
                             gotoxy(x,y);
