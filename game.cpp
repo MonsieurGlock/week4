@@ -15,7 +15,7 @@
     int main()
     {
         char ch=' ';
-        int x=10,y=5,i,j;
+        int x=38,y=20,i,j;
         gotoxy(x, y);
         draw_ship();
         
@@ -27,7 +27,7 @@
                             --x;
                             gotoxy(x,y);
                             draw_ship();}
-                        if(ch=='d' && x<=79){
+                        if(ch=='d' && x<=80){
                             ++x;
                             gotoxy(x,y);
                             draw_ship();}
@@ -37,7 +37,7 @@
                             gotoxy(x,y);
                             draw_ship();
                         }
-                        if(ch=='s' && y <=79 ){
+                        if(ch=='s' && y <=30 ){
                             erase_ship(x,y);
                             ++y;
                             gotoxy(x,y);
