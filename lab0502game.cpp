@@ -81,14 +81,14 @@ int main()
 							break;
 						}
 						draw_bullet(posx + 3, --posby);
-						Sleep(9);
+						Sleep(100);
 					} while (posby >= 0);
 				}
 			}
 				
 		}
 		
-		Sleep(9);
+		Sleep(100);
 		fflush(stdin);
 	} while (ch != 'x');
 

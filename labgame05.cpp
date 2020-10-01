@@ -14,7 +14,7 @@ int changex=0;
 int main()
 {
 
-	map();
+	//map();
 	setcursor(0);
 	draw_ship(posx, posy);
 	do 
@@ -40,7 +40,7 @@ int main()
 			{
 				if (posx == 80)
 				{
-					//erase_ship(posx, posy);
+					//erase_ship(posx, posy); 
 					//draw_ship(posx, posy);
 				}
 				else
